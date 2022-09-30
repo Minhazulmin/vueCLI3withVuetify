@@ -1,4 +1,5 @@
 <template>
+ 
         <v-btn link :to="'/'" color="#fff" class="logo">MIN <span class="it ml-3"> IT</span></v-btn>
           <v-spacer/>
             <v-list class="d-flex align-center subheading">
@@ -10,7 +11,7 @@
             <v-btn class="ma-2" variant="outlined" color="success" link :to="'login'"><v-icon start icon="mdi-login"  ></v-icon>Login</v-btn>
             <v-btn class="ma-2" variant="outlined" color="warning" link :to="'registration'"> <v-icon start icon="mdi-account-plus" ></v-icon>Register</v-btn>
           
-    
+ 
 </template>
 <script>
 export default {

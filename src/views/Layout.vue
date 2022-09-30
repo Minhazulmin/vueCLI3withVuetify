@@ -1,6 +1,6 @@
 <template>
 <v-app>
-  <v-app-bar app color="#fff" light elevation="1" elevate-on-scroll style="padding:0px 190px">
+  <v-app-bar app color="#fff" light elevation="1" elevate-on-scroll >
     <Header />
   </v-app-bar>
   <v-main>
