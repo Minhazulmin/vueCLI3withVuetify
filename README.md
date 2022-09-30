@@ -1,4 +1,4 @@
-# Vue Cli Simple Vue Validation Izitoast
+# Vue Cli Simple Vue Validation Izitoast with vuetify
 
 
 
