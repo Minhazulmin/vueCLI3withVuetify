@@ -1,6 +1,6 @@
 <template>
  
-        <v-btn link :to="'/'" color="#fff" class="logo">MIN <span class="it ml-3"> IT</span></v-btn>
+        <v-btn link :to="'/'" color="#fff" class="logo ml-12">MIN <span class="it ml-3"> IT</span></v-btn>
           <v-spacer/>
             <v-list class="d-flex align-center subheading">
               <v-list-item link  v-for="(menu,index) in menus" :key="index" :to="menu.url">
@@ -9,7 +9,7 @@
             </v-list>
             <v-spacer/>
             <v-btn class="ma-2" variant="outlined" color="success" link :to="'login'"><v-icon start icon="mdi-login"  ></v-icon>Login</v-btn>
-            <v-btn class="ma-2" variant="outlined" color="warning" link :to="'registration'"> <v-icon start icon="mdi-account-plus" ></v-icon>Register</v-btn>
+            <v-btn class="ma-2 mr-16" variant="outlined" color="warning" link :to="'registration'"> <v-icon start icon="mdi-account-plus" ></v-icon>Register</v-btn>
           
  
 </template>

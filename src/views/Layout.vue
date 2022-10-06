@@ -1,12 +1,12 @@
 <template>
 <v-app>
-  <v-app-bar app color="#fff" light elevation="1" elevate-on-scroll >
+  <v-app-bar app color="#fff" light elevation="3" elevate-on-scroll >
     <Header />
   </v-app-bar>
   <v-main>
-    <v-container fluid>
+    <v-container-fluid>
       <router-view></router-view>
-    </v-container>
+    </v-container-fluid>
   </v-main>
 
   <v-footer app >

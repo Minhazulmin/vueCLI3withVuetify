@@ -1,14 +1,15 @@
 <template>
-  
-  <v-container>
   <!--Start breadcrumbs -->
-  <v-title class="float-right text-h6 py-3  breadcrumbs"><span class="mr-5" > Services</span></v-title>
-  <v-breadcrumbs :items="breadcrumbs" class="breadcrumbs"   color="orange">
-    <template v-slot:divider>
-      <v-icon icon="mdi-chevron-right"></v-icon>
-    </template>
-  </v-breadcrumbs>
-  <!--End breadcrumbs -->
+    <span class="float-right py-4  breadcrumbs"><span class="mr-24" > Book Store</span></span>
+
+    <v-breadcrumbs  class="breadcrumbs"   color="orange">
+        <span class="ml-15">Home</span>
+        <v-icon icon="mdi-chevron-right"></v-icon>
+        <span>Book Store</span>
+    </v-breadcrumbs>
+<!--End breadcrumbs -->
+  <v-container>
+ 
     <h2 class="d-flex justify-center mb-2  title">Our Servies</h2>
     <p class="d-flex justify-center mb-3">
       To take our service and grow business
@@ -95,7 +96,7 @@ export default {
           value: "bulk_sms",
           description: "Whitehaven Beach Whitsunday Island, Whitsunday Islands",
           subtitle: "Get Free 10 SMS",
-          logo: "https://www.putulhost.com/wp-content/uploads/2020/09/about-bulksale.png",
+          logo: "https://www.ebulksms.com/webroot/files/uploads/posts/mobile-device-communication-vector-id956237526.jpg",
         },
       ],
       breadcrumbs: [
@@ -122,8 +123,10 @@ export default {
   -webkit-background-clip: text;
   text-shadow: 2px 7px 5px rgb(0 0 0 / 14%);
 }
+ .mr-24{
+    margin-right: 68px;
+ }
 .breadcrumbs{
   background: #f9f9f9;
-  color: orange;
 }
 </style>
