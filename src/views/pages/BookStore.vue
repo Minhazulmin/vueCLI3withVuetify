@@ -1,16 +1,8 @@
 <template>
-<!--Start breadcrumbs -->
-    <span class="float-right py-4  breadcrumbs"><span class="mr-24" > Book Store</span></span>
-
-    <v-breadcrumbs  class="breadcrumbs"   color="orange">
-        <span class="ml-15">Home</span>
-        <v-icon icon="mdi-chevron-right"></v-icon>
-        <span>Book Store</span>
-    </v-breadcrumbs>
-<!--End breadcrumbs -->
 <v-container>
-
-
+  <!--  -->
+   <v-img class="align-end text-white mb-3"  height="300" src="https://ds.rokomari.store/rokomari110/banner/01ef8896-3e78-4dbc-a92c-14cd5261b22a.webp" cover > </v-img>
+  <!--  -->
 
 <!-- একাডেমিক বইসমূহ -->
     <v-divider ></v-divider>
@@ -27,6 +19,7 @@
         lg="3"
         sm="6"
         xs="12"
+        style="padding:0px"
       >
         <v-sheet class="ma-2 pa-2">
           <v-card class="mx-auto" max-width="400">
@@ -73,6 +66,7 @@
         lg="3"
         sm="6"
         xs="12"
+        style="padding:0px"
       >
         <v-sheet class="ma-2 pa-2">
           <v-card class="mx-auto" max-width="400">
@@ -222,13 +216,6 @@ export default {
 }
 </script>
 <style scoped>
- .mr-24{
-    margin-right: 68px;
- }
-.breadcrumbs{
-  background: #f9f9f9;
-}
-
 .custom-loader {
     animation: loader 1s infinite;
     display: flex;

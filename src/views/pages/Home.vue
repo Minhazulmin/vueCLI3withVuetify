@@ -18,7 +18,7 @@ export default {
 </script>
 <style scoped>
 .main-div{
-    padding: 96px 32px;
+    padding: 70px 32px;
     text-align: center;
 }
 .title{

@@ -4,6 +4,7 @@
     <Header />
   </v-app-bar>
   <v-main>
+      <Breadcrumbs />
     <v-container-fluid>
       <router-view></router-view>
     </v-container-fluid>
@@ -15,10 +16,17 @@
 </v-app>
 </template>
 <script>
+import Breadcrumbs from "../components/Breadcrumbs.vue";
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 export default {
   name: "Layout",
-  components: { Footer, Header },
+  components: { Footer, Header,Breadcrumbs },
+  data(){
+    return{
+       
+    }
+  },
+
 };
 </script>
